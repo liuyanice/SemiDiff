@@ -1,7 +1,7 @@
 GPU=0
 seed_split=0  # data split seed
 Mode=test  # training (train) or testing (test) mode
-Dataset=STARE #CHASEDB1 #EM #DRIVE # dataset to use [option: STARE, EM, DRIVE]
+Dataset=DRIVE #CHASEDB1 #EM #DRIVE # dataset to use [option: STARE, CHASE DB, EM and DRIVE]
 
 Epoch=1000  # number of training epochs
 lr=1e-3 # init learning rate
@@ -13,7 +13,7 @@ EmaAlpha=0.999  # EMA hyperparameter
 Gamma=5 # weight applied to unsupervised loss
 RampupType=Exp  # unsupervised loss weight rampup method
 
-## MeanTeacher
+## SemiDiff
 RampupEpoch=500
 net=ResUnet_Q
 loss=Dice+ConsistMSE_loss # supervised loss
