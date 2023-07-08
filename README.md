@@ -1,6 +1,6 @@
 # SemiDif: Quaternion Neural Networks for Semi-Supervised Vessel Segmentation with Latent Diffusion model
 
-This is the official repository for <a href="https://arxiv.org/abs/2205.08706">"SemiCurv: Semi-Supervised Curvilinear Structure Segmentation"</a> IEEE TIP 2022. Please cite this work [1] if you find this repository useful for your project.
+
 
 We propose SemiDif, a novel semi-supervised learning (SSL) framework based on the latent diffusion model and quaternion neural network. This framework consists of two stages. In the first stage, the latent diffusion model is utilized to generate unlabeled data, reducing the labelling burden. In the second stage, we address two key challenges in semi-supervised vessel segmentation. Firstly, we integrate a differentiable and reversible geometric transformation to augment the data, effectively leveraging the capabilities of consistency-based SSL. Secondly, SemiDif adopts a novel quaternion convolutional network that efficiently captures vessel curve structure features in complex background, enabling it to self-attend to tiny vessels in both horizontal and vertical space.
 
