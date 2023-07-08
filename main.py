@@ -16,7 +16,7 @@ parser = arg.ArgumentParser(description='Take parameters')
 
 parser.add_argument('--Mode',type=str,help='Running mode default: train [train, test]',default='train')
 parser.add_argument('--Ckpt',type=str,help='Ckpt to resotre for test/inference',
-                    default=r'C:\Users\liuyan\Desktop\给杨燕老师汇报\SemiDiff\Results\MeanTeacher_ResUnet_Q_Dice+ConsistMSE_loss_ep-1000_m-0.05_2023-06-27_10-56-48\ckpt')
+                    default=r'/Results/MeanTeacher_ResUnet_Q_Dice+ConsistMSE_loss_ep-1000_m-0.05_2023-06-27_10-56-48/ckpt')
 #/home/ctc/YanLiu/seg/SemiCurv-master/Results/STARE/CutMix/CutMix_Unet_Dice+ConsistMSE_loss_ep-1000_m-0.01_2023-06-30_21-11-10/ckpt
 parser.add_argument('--GPU',type=int,help='GPU to use',default=0)
 # parser.add_argument('--ExpSum','-es',type=int,help='Flag to indicate if export summary',default=0)    # bool
