@@ -2,7 +2,7 @@
 
 
 
-We propose SemiDif, a novel semi-supervised learning (SSL) framework based on the latent diffusion model and quaternion neural network. This framework consists of two stages. In the first stage, the latent diffusion model is utilized to generate unlabeled data, reducing the labelling burden. In the second stage, we address two key challenges in semi-supervised vessel segmentation. Firstly, we integrate a differentiable and reversible geometric transformation to augment the data, effectively leveraging the capabilities of consistency-based SSL. Secondly, SemiDif adopts a novel quaternion convolutional network that efficiently captures vessel curve structure features in complex background, enabling it to self-attend to tiny vessels in both horizontal and vertical space.
+We propose SemiDif, a novel semi-supervised learning (SSL) framework based on the latent diffusion model and quaternion neural network. This framework consists of two stages. In the first stage, the latent diffusion model is utilized to generate unlabeled data, reducing the labelling burden. In the second stage, we address two key challenges in semi-supervised vessel segmentation. Firstly, we integrate a differentiable and reversible geometric transformation to augment the data, effectively leveraging the capabilities of consistency-based SSL. Secondly, SemiDif adopts a novel quaternion convolutional network that efficiently captures vessel curve structure features in complex background, enabling it to self-attend to tiny vessels in both horizontal and vertical space.
 
 ![SemiDif Framework](./Image/Framework.png)
 
