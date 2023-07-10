@@ -12,7 +12,7 @@ Please follow the following pipeline to reproduce the results.
 
 ## Requirements
 
-The code is tested under Ubuntu 18.04, CUDA 10.2, PyTorch 1.6.0
+The code is tested under Ubuntu 18.04, CUDA 10.2, PyTorch 1.13.0
 Install the required packages through
 
 ```

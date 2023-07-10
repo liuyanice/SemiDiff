@@ -1,4 +1,4 @@
-torch~=1.6.0
+torch~=1.13.0
 numpy~=1.18.1
 scikit-image~=0.16.2
 opencv-python~=4.2.0.32
